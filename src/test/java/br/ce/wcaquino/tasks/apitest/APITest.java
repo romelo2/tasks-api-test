@@ -12,7 +12,7 @@ public class APITest {
 	
 	@BeforeClass
 	public static void setup() {
-		RestAssured.baseURI = "http://ec2-54-144-11-72.compute-1.amazonaws.com:8001/tasks-backend";
+		RestAssured.baseURI = "52.90.38.207:8001/tasks-backend";
 	}
 	
 	@Test
